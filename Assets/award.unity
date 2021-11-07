@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 60349926}
   - component: {fileID: 60349925}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 63297468}
   - component: {fileID: 63297467}
   m_Layer: 5
-  m_Name: receive7
+  m_Name: btnReceive7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -356,6 +356,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1968276214}
+        m_MethodName: Receive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &63297468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -405,6 +416,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1385938972}
+  - {fileID: 1298900071}
   m_Father: {fileID: 2074018789}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -413,6 +425,84 @@ RectTransform:
   m_AnchoredPosition: {x: 449, y: 3}
   m_SizeDelta: {x: 130.79387, y: 130.68993}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &67820837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 67820838}
+  - component: {fileID: 67820840}
+  - component: {fileID: 67820839}
+  m_Layer: 5
+  m_Name: txtSum
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &67820838
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67820837}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1633204284}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 519, y: -5}
+  m_SizeDelta: {x: 160, y: 140}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &67820839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67820837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 60
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 66
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 0
+--- !u!222 &67820840
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67820837}
+  m_CullTransparentMesh: 0
 --- !u!1 &68059686
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +515,7 @@ GameObject:
   - component: {fileID: 68059689}
   - component: {fileID: 68059688}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -499,7 +589,7 @@ GameObject:
   - component: {fileID: 81393651}
   - component: {fileID: 81393650}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -577,7 +667,7 @@ GameObject:
   - component: {fileID: 117405190}
   - component: {fileID: 117405189}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtAward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -655,7 +745,7 @@ GameObject:
   - component: {fileID: 129428825}
   - component: {fileID: 129428824}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgCoins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -731,7 +821,7 @@ GameObject:
   - component: {fileID: 138143731}
   - component: {fileID: 138143730}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -829,6 +919,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &155420481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155420482}
+  - component: {fileID: 155420484}
+  - component: {fileID: 155420483}
+  m_Layer: 5
+  m_Name: imgCoinsBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &155420482
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155420481}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.00032, y: 1.00032, z: 1.00032}
+  m_Children:
+  - {fileID: 1998741877}
+  m_Father: {fileID: 1633204284}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 213.50002, y: -0.9998169}
+  m_SizeDelta: {x: 142.38376, y: 183.88052}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &155420483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155420481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6707e32788ccd446a855a38a1b8137ac, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &155420484
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155420481}
+  m_CullTransparentMesh: 0
 --- !u!1 &155619419
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +1050,7 @@ GameObject:
   - component: {fileID: 185539652}
   - component: {fileID: 185539651}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1033,7 +1198,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1163633252}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.7313039
+  m_Size: 0.7311514
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1087,7 +1252,7 @@ GameObject:
   - component: {fileID: 218218107}
   - component: {fileID: 218218106}
   m_Layer: 5
-  m_Name: Rank
+  m_Name: imgRank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1193,7 +1358,7 @@ GameObject:
   - component: {fileID: 275656209}
   - component: {fileID: 275656211}
   m_Layer: 5
-  m_Name: receive2
+  m_Name: btnReceive2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1333,6 +1498,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1968276214}
+        m_MethodName: Receive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &293810158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,7 +1521,7 @@ GameObject:
   - component: {fileID: 293810161}
   - component: {fileID: 293810160}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1419,7 +1595,7 @@ GameObject:
   - component: {fileID: 294476645}
   - component: {fileID: 294476644}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgCoinsBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1495,7 +1671,7 @@ GameObject:
   - component: {fileID: 313211980}
   - component: {fileID: 313211979}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1573,7 +1749,7 @@ GameObject:
   - component: {fileID: 358444262}
   - component: {fileID: 358444261}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1651,7 +1827,7 @@ GameObject:
   - component: {fileID: 365228859}
   - component: {fileID: 365228858}
   m_Layer: 5
-  m_Name: award
+  m_Name: imgTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1727,7 +1903,7 @@ GameObject:
   - component: {fileID: 419238663}
   - component: {fileID: 419238665}
   m_Layer: 5
-  m_Name: receive1
+  m_Name: btnReceive1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1867,6 +2043,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1968276214}
+        m_MethodName: Receive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &464647053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,7 +2066,7 @@ GameObject:
   - component: {fileID: 464647056}
   - component: {fileID: 464647055}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgCoinsBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1955,7 +2142,7 @@ GameObject:
   - component: {fileID: 468875988}
   - component: {fileID: 468875987}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgCoins1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2105,7 +2292,7 @@ GameObject:
   - component: {fileID: 496645859}
   - component: {fileID: 496645858}
   m_Layer: 5
-  m_Name: bonus point
+  m_Name: btnBonus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2234,7 +2421,7 @@ GameObject:
   - component: {fileID: 685183363}
   - component: {fileID: 685183362}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2392,7 +2579,7 @@ GameObject:
   - component: {fileID: 701983875}
   - component: {fileID: 701983874}
   m_Layer: 5
-  m_Name: receive
+  m_Name: btnReceive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2455,6 +2642,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1232599090}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1968276214}
+        m_MethodName: Receive
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2533,7 +2731,7 @@ GameObject:
   - component: {fileID: 728749095}
   - component: {fileID: 728749094}
   m_Layer: 5
-  m_Name: coin
+  m_Name: imgCoins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2608,7 +2806,7 @@ GameObject:
   - component: {fileID: 776420497}
   - component: {fileID: 776420496}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2686,7 +2884,7 @@ GameObject:
   - component: {fileID: 813205768}
   - component: {fileID: 813205767}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive66
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2744,13 +2942,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1698171849}
-  m_RootOrder: 2
+  m_Father: {fileID: 1953303169}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 447, y: 6}
-  m_SizeDelta: {x: -11.589874, y: -53.190582}
+  m_AnchoredPosition: {x: -1.9999695, y: 3.0001357}
+  m_SizeDelta: {x: 0.000015258789, y: 0.000015258789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &823900504
 GameObject:
@@ -2764,7 +2962,7 @@ GameObject:
   - component: {fileID: 823900506}
   - component: {fileID: 823900505}
   m_Layer: 5
-  m_Name: saiji
+  m_Name: txtSaiji
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2842,7 +3040,7 @@ GameObject:
   - component: {fileID: 953408556}
   - component: {fileID: 953408555}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgCoinsBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2918,7 +3116,7 @@ GameObject:
   - component: {fileID: 962945906}
   - component: {fileID: 962945905}
   m_Layer: 5
-  m_Name: rankScore
+  m_Name: imgRankScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2996,7 +3194,7 @@ GameObject:
   - component: {fileID: 982006966}
   - component: {fileID: 982006965}
   m_Layer: 5
-  m_Name: title
+  m_Name: txtTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3074,7 +3272,7 @@ GameObject:
   - component: {fileID: 1104267832}
   - component: {fileID: 1104267831}
   m_Layer: 5
-  m_Name: Image (5)
+  m_Name: imgCoins6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3149,7 +3347,7 @@ GameObject:
   - component: {fileID: 1109862198}
   - component: {fileID: 1109862197}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive55
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3227,7 +3425,7 @@ GameObject:
   - component: {fileID: 1159383960}
   - component: {fileID: 1159383959}
   m_Layer: 5
-  m_Name: Img
+  m_Name: imgAward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3246,6 +3444,7 @@ RectTransform:
   m_Children:
   - {fileID: 117405188}
   - {fileID: 218218105}
+  - {fileID: 1633204284}
   m_Father: {fileID: 1622273451}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3323,7 +3522,7 @@ RectTransform:
   m_Father: {fileID: 149941990}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.26869613}
+  m_AnchorMin: {x: 0, y: 0.2688486}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -3377,7 +3576,7 @@ GameObject:
   - component: {fileID: 1217930704}
   - component: {fileID: 1217930703}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3455,7 +3654,7 @@ GameObject:
   - component: {fileID: 1232599093}
   - component: {fileID: 1232599092}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3533,7 +3732,7 @@ GameObject:
   - component: {fileID: 1286875766}
   - component: {fileID: 1286875765}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3607,7 +3806,7 @@ GameObject:
   - component: {fileID: 1298900073}
   - component: {fileID: 1298900072}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive77
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3624,13 +3823,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2074018789}
-  m_RootOrder: 2
+  m_Father: {fileID: 63297470}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 451, y: -3}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 2.0000305, y: -6.0000477}
+  m_SizeDelta: {x: 11.58989, y: 53.190598}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298900072
 MonoBehaviour:
@@ -3685,7 +3884,7 @@ GameObject:
   - component: {fileID: 1303857240}
   - component: {fileID: 1303857239}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: imgCoins3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3760,7 +3959,7 @@ GameObject:
   - component: {fileID: 1318963631}
   - component: {fileID: 1318963630}
   m_Layer: 5
-  m_Name: BackGround
+  m_Name: imgBackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3837,7 +4036,7 @@ GameObject:
   - component: {fileID: 1330701721}
   - component: {fileID: 1330701720}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtSaiji
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3915,7 +4114,7 @@ GameObject:
   - component: {fileID: 1333947402}
   - component: {fileID: 1333947401}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3993,7 +4192,7 @@ GameObject:
   - component: {fileID: 1336388996}
   - component: {fileID: 1336388995}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: imgCoins4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4160,7 +4359,7 @@ GameObject:
   - component: {fileID: 1359123213}
   - component: {fileID: 1359123212}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4239,7 +4438,7 @@ GameObject:
   - component: {fileID: 1359160620}
   - component: {fileID: 1359160622}
   m_Layer: 5
-  m_Name: receive4
+  m_Name: btnReceive4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4379,6 +4578,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1968276214}
+        m_MethodName: Receive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1382199625
 GameObject:
   m_ObjectHideFlags: 0
@@ -4391,7 +4601,7 @@ GameObject:
   - component: {fileID: 1382199627}
   - component: {fileID: 1382199626}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4469,7 +4679,7 @@ GameObject:
   - component: {fileID: 1385938974}
   - component: {fileID: 1385938973}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4547,7 +4757,7 @@ GameObject:
   - component: {fileID: 1396399571}
   - component: {fileID: 1396399570}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: imgCoins2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4622,7 +4832,7 @@ GameObject:
   - component: {fileID: 1420201895}
   - component: {fileID: 1420201894}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4700,7 +4910,7 @@ GameObject:
   - component: {fileID: 1434169074}
   - component: {fileID: 1434169073}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtRank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4778,7 +4988,7 @@ GameObject:
   - component: {fileID: 1459046890}
   - component: {fileID: 1459046889}
   m_Layer: 5
-  m_Name: wallet
+  m_Name: txtWallet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4857,7 +5067,7 @@ GameObject:
   - component: {fileID: 1497793688}
   - component: {fileID: 1497793690}
   m_Layer: 5
-  m_Name: receive3
+  m_Name: btnReceive3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4997,6 +5207,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1968276214}
+        m_MethodName: Receive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1516653233
 GameObject:
   m_ObjectHideFlags: 0
@@ -5009,7 +5230,7 @@ GameObject:
   - component: {fileID: 1516653236}
   - component: {fileID: 1516653235}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5087,7 +5308,7 @@ GameObject:
   - component: {fileID: 1536467296}
   - component: {fileID: 1536467295}
   m_Layer: 5
-  m_Name: Image (4)
+  m_Name: imgCoins5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5236,7 +5457,7 @@ GameObject:
   - component: {fileID: 1577152032}
   - component: {fileID: 1577152031}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgCoins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5310,7 +5531,7 @@ GameObject:
   - component: {fileID: 1622273453}
   - component: {fileID: 1622273452}
   m_Layer: 5
-  m_Name: Img
+  m_Name: imgAwardBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5374,6 +5595,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622273450}
   m_CullTransparentMesh: 0
+--- !u!1 &1633204283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1633204284}
+  - component: {fileID: 1633204286}
+  - component: {fileID: 1633204285}
+  m_Layer: 5
+  m_Name: txtReceive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1633204284
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633204283}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 155420482}
+  - {fileID: 67820838}
+  m_Father: {fileID: 1159383958}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -160.5, y: -0.00016785}
+  m_SizeDelta: {x: 278.91476, y: 183.9996}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1633204285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633204283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 45
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u5DF2\u9886\u53D6\u7684\u5956\u52B1"
+--- !u!222 &1633204286
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633204283}
+  m_CullTransparentMesh: 0
 --- !u!1 &1659525907
 GameObject:
   m_ObjectHideFlags: 0
@@ -5387,7 +5688,7 @@ GameObject:
   - component: {fileID: 1659525909}
   - component: {fileID: 1659525911}
   m_Layer: 5
-  m_Name: receive5
+  m_Name: btnReceive5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5519,6 +5820,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1109862196}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1968276214}
+        m_MethodName: Receive
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5683,7 +5995,7 @@ GameObject:
   - component: {fileID: 1689767099}
   - component: {fileID: 1689767098}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgCoinsBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5759,7 +6071,7 @@ GameObject:
   - component: {fileID: 1698171851}
   - component: {fileID: 1698171850}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgCoinsBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5778,7 +6090,6 @@ RectTransform:
   m_Children:
   - {fileID: 1286875764}
   - {fileID: 1953303169}
-  - {fileID: 813205769}
   m_Father: {fileID: 1104267830}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5905,7 +6216,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2073182343}
   m_HandleRect: {fileID: 2073182342}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -6034,7 +6345,7 @@ GameObject:
   - component: {fileID: 1815452824}
   - component: {fileID: 1815452823}
   m_Layer: 5
-  m_Name: bonus
+  m_Name: txtbonus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6112,7 +6423,7 @@ GameObject:
   - component: {fileID: 1821162487}
   - component: {fileID: 1821162486}
   m_Layer: 5
-  m_Name: player
+  m_Name: imgPlayerBackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6192,7 +6503,7 @@ GameObject:
   - component: {fileID: 1844104806}
   - component: {fileID: 1844104805}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgCoinsBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6268,7 +6579,7 @@ GameObject:
   - component: {fileID: 1860390969}
   - component: {fileID: 1860390968}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6346,7 +6657,7 @@ GameObject:
   - component: {fileID: 1865553541}
   - component: {fileID: 1865553540}
   m_Layer: 5
-  m_Name: head
+  m_Name: imgHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6422,7 +6733,7 @@ GameObject:
   - component: {fileID: 1890878618}
   - component: {fileID: 1890878617}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgCoinsBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6498,7 +6809,7 @@ GameObject:
   - component: {fileID: 1906109488}
   - component: {fileID: 1906109487}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6572,7 +6883,7 @@ GameObject:
   - component: {fileID: 1925596869}
   - component: {fileID: 1925596868}
   m_Layer: 5
-  m_Name: Image6
+  m_Name: imgCoins7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6648,7 +6959,7 @@ GameObject:
   - component: {fileID: 1953303167}
   - component: {fileID: 1953303166}
   m_Layer: 5
-  m_Name: receive6
+  m_Name: btnReceive6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6730,6 +7041,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1968276214}
+        m_MethodName: Receive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1953303167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6779,6 +7101,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 185539650}
+  - {fileID: 813205769}
   m_Father: {fileID: 1698171849}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6800,7 +7123,7 @@ GameObject:
   - component: {fileID: 1963287775}
   - component: {fileID: 1963287774}
   m_Layer: 5
-  m_Name: rank
+  m_Name: imgRank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6941,7 +7264,7 @@ GameObject:
   - component: {fileID: 1964328320}
   - component: {fileID: 1964328319}
   m_Layer: 5
-  m_Name: reset
+  m_Name: btnReset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7011,7 +7334,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1968276214}
-        m_MethodName: reset
+        m_MethodName: Reset
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7071,7 +7394,7 @@ GameObject:
   - component: {fileID: 1968276212}
   - component: {fileID: 1968276214}
   m_Layer: 5
-  m_Name: score
+  m_Name: txtScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7157,6 +7480,22 @@ MonoBehaviour:
   receive5: {fileID: 1659525911}
   receive6: {fileID: 1953303166}
   receive7: {fileID: 63297467}
+  receive0: {fileID: 1333947401}
+  receive11: {fileID: 1359123212}
+  receive22: {fileID: 1420201894}
+  receive33: {fileID: 81393650}
+  receive44: {fileID: 1382199626}
+  receive55: {fileID: 1109862197}
+  receive66: {fileID: 813205767}
+  receive77: {fileID: 1298900072}
+  receive00: {fileID: 1232599092}
+  receive111: {fileID: 1217930703}
+  receive222: {fileID: 1516653235}
+  receive333: {fileID: 358444261}
+  receive444: {fileID: 2081739866}
+  receive555: {fileID: 1860390968}
+  receive666: {fileID: 185539651}
+  receive777: {fileID: 1385938973}
   Rank: {fileID: 218218106}
   primary: {fileID: 21300000, guid: 565f6d748e11948fba2e44041ac4f2a1, type: 3}
   master: {fileID: 21300000, guid: bd519561f29314ae8baba847605e0e49, type: 3}
@@ -7164,6 +7503,81 @@ MonoBehaviour:
   score: {fileID: 1968276212}
   rankScore: {fileID: 962945905}
   saiJi: {fileID: 823900505}
+  Sum: {fileID: 67820839}
+--- !u!1 &1998741876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998741877}
+  - component: {fileID: 1998741879}
+  - component: {fileID: 1998741878}
+  m_Layer: 5
+  m_Name: imgBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1998741877
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998741876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 155420482}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 6.0754, y: 0.015714}
+  m_SizeDelta: {x: 130.23305, y: 183.91196}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1998741878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998741876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 08cfdb9c971af41368eb09019f7af135, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1998741879
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998741876}
+  m_CullTransparentMesh: 0
 --- !u!1 &2036200883
 GameObject:
   m_ObjectHideFlags: 0
@@ -7440,7 +7854,7 @@ GameObject:
   - component: {fileID: 2074018791}
   - component: {fileID: 2074018790}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgCoinsBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7459,7 +7873,6 @@ RectTransform:
   m_Children:
   - {fileID: 2112807040}
   - {fileID: 63297470}
-  - {fileID: 1298900071}
   m_Father: {fileID: 1925596867}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7517,7 +7930,7 @@ GameObject:
   - component: {fileID: 2081739867}
   - component: {fileID: 2081739866}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txtReceive4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7595,7 +8008,7 @@ GameObject:
   - component: {fileID: 2112807042}
   - component: {fileID: 2112807041}
   m_Layer: 5
-  m_Name: Image
+  m_Name: imgBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7669,7 +8082,7 @@ GameObject:
   - component: {fileID: 2127230310}
   - component: {fileID: 2127230309}
   m_Layer: 5
-  m_Name: title
+  m_Name: imgtitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
