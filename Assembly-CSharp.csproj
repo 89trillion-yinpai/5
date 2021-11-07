@@ -58,11 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\JiaFenController.cs" />
-     <None Include="Assets\Art\资源\OSA\Resources\OSA\Templates\ScriptsChunks\HeaderComment.txt" />
-     <None Include="Assets\Art\资源\OSA\Resources\OSA\Templates\Scripts\BasicListAdapter.txt" />
-     <None Include="Assets\Art\资源\OSA\Resources\OSA\Templates\Scripts\BasicGridAdapter.txt" />
-     <None Include="Assets\Art\资源\OSA\Docs\Manual link.txt" />
+     <Compile Include="Assets\Function1\03.Scripts\Controller\JiaFenController.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/yinpai/Desktop/未命名文件夹/奖杯之路/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -84,14 +80,14 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>/Users/yinpai/Desktop/未命名文件夹/奖杯之路/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/奖杯之路/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>/Users/yinpai/Desktop/未命名文件夹/奖杯之路/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/yinpai/Desktop/未命名文件夹/奖杯之路/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/奖杯之路/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -624,16 +620,6 @@
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="OSA-Editor.csproj">
-      <Project>{54D38FC3-C474-9E17-ACEE-5B30C82FA8B7}</Project>
-      <Name>OSA-Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="OSA.csproj">
-      <Project>{548E5A1B-1325-B0EB-643E-3D18759F5BB7}</Project>
-      <Name>OSA</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
