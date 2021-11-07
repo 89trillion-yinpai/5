@@ -73,6 +73,7 @@ namespace Assets.Function1._03.Scripts.Controller
       public void Jia()
       {
       
+        //每次加100
          _i += 100;
          Award();
          if (_i >= 6000)
@@ -81,6 +82,7 @@ namespace Assets.Function1._03.Scripts.Controller
          }
          score.text = _i.ToString();
          rankScore.text = _i.ToString();
+         //奖励领取状态
          if (_i >= 4200)
          {
             receive.gameObject.SetActive(true);
@@ -115,6 +117,7 @@ namespace Assets.Function1._03.Scripts.Controller
          }
       }
 
+     //领取奖励一次记录一次
       public void Receive()
       {
          if (receive00.gameObject.activeSelf == false)
@@ -233,7 +236,7 @@ namespace Assets.Function1._03.Scripts.Controller
 
      public void Award()
       {
-      
+      //奖励状态
          if (_i == 4200)
          {
             receive.gameObject.SetActive(true);
@@ -271,6 +274,7 @@ namespace Assets.Function1._03.Scripts.Controller
             Debug.Log("分数不匹配");
          }
       }
+      //每一帧检查分数低于4000显示分数，高于4000显示相应段位
       public void Update()
       {
          int toInt32;
