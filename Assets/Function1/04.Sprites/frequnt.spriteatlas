@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: frequnt
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: e371d27c7bb6c4c629812c8ed6872b1d, type: 3}
+    - {fileID: 2800000, guid: 5243f5e240cf9440b84d2caba9fb0666, type: 3}
+    - {fileID: 2800000, guid: f7ce9df783e0642258c224ae6ff58b48, type: 3}
+    - {fileID: 2800000, guid: bd519561f29314ae8baba847605e0e49, type: 3}
+    - {fileID: 2800000, guid: 6833784c2f8ed43a48a97895e6084b41, type: 3}
+    - {fileID: 21300000, guid: 2440e9408c3414a2195d923a248be0f3, type: 3}
+    - {fileID: 2800000, guid: 883dcc7b0c068475b85bf63ca23a1487, type: 3}
+    - {fileID: 2800000, guid: da99e4d7c9a5c4a34a742257f573c745, type: 3}
+    - {fileID: 21300000, guid: f57fa4a94cfff444aa6314e46857d751, type: 3}
+    - {fileID: 21300000, guid: ab8910b4e663841b39eb8761fa22fd24, type: 3}
+    - {fileID: 21300000, guid: 109a8032d227041328627dc51a7de595, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2440e9408c3414a2195d923a248be0f3, type: 3}
+  - {fileID: 21300000, guid: bd519561f29314ae8baba847605e0e49, type: 3}
+  - {fileID: 21300000, guid: 109a8032d227041328627dc51a7de595, type: 3}
+  - {fileID: 21300000, guid: 5243f5e240cf9440b84d2caba9fb0666, type: 3}
+  - {fileID: 21300000, guid: ab8910b4e663841b39eb8761fa22fd24, type: 3}
+  - {fileID: 21300000, guid: da99e4d7c9a5c4a34a742257f573c745, type: 3}
+  - {fileID: 21300000, guid: f7ce9df783e0642258c224ae6ff58b48, type: 3}
+  - {fileID: 21300000, guid: f57fa4a94cfff444aa6314e46857d751, type: 3}
+  - {fileID: 21300000, guid: 883dcc7b0c068475b85bf63ca23a1487, type: 3}
+  - {fileID: 21300000, guid: 6833784c2f8ed43a48a97895e6084b41, type: 3}
+  - {fileID: 21300000, guid: e371d27c7bb6c4c629812c8ed6872b1d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - avatar_1
+  - arenaBadge_13
+  - userHead
+  - arenaBadge_10
+  - trophy
+  - cup
+  - arenaBadge_11
+  - icon_cup
+  - banner
+  - arenaBadge_12
+  - arenaBadge_9
+  m_Tag: frequnt
+  m_IsVariant: 0
