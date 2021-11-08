@@ -51,6 +51,7 @@ namespace Assets.Function1._03.Scripts.Controller
       private int _i;
       private int _j;
       private int _z;
+      private int _toInt32;
       public Text Sum;
       public void Start()
       { 
@@ -112,6 +113,22 @@ namespace Assets.Function1._03.Scripts.Controller
          if (_i >= 5800)
          {
             receive7.gameObject.SetActive(true);
+         }
+         _toInt32 = Convert.ToInt32(score.text);
+         if (_toInt32 <= 4000)
+         {
+            Rank.sprite = primary;
+         
+            return;
+         }
+         if (_toInt32 < 5000)
+         {
+            rankScore.gameObject.SetActive(false);
+            Rank.sprite = master;
+         }
+         else 
+         {
+            Rank.sprite = King;
          }
       }
 
@@ -269,26 +286,6 @@ namespace Assets.Function1._03.Scripts.Controller
          else
          {
             Debug.Log("分数不匹配");
-         }
-      }
-      public void Update()
-      {
-         int toInt32;
-         toInt32 = Convert.ToInt32(score.text);
-         if (toInt32 <= 4000)
-         {
-            Rank.sprite = primary;
-         
-            return;
-         }
-         if (toInt32 < 5000)
-         {
-            rankScore.gameObject.SetActive(false);
-            Rank.sprite = master;
-         }
-         else 
-         {
-            Rank.sprite = King;
          }
       }
    }
