@@ -242,7 +242,7 @@ namespace Assets.Function1._03.Scripts.Controller
             }
         }
 
-        private void Award()
+        public void Award()
         {
             if (I == 4200)
             {
