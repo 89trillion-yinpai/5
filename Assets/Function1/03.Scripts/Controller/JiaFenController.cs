@@ -11,14 +11,14 @@ namespace Assets.Function1._03.Scripts.Controller
             //判断初始分数多少，是否有可以领取的奖励
             Award();
             rankScore.text = score.text;
-            receive.gameObject.SetActive(false);
-            receive1.gameObject.SetActive(false);
-            receive2.gameObject.SetActive(false);
-            receive3.gameObject.SetActive(false);
-            receive4.gameObject.SetActive(false);
-            receive5.gameObject.SetActive(false);
-            receive6.gameObject.SetActive(false);
-            receive7.gameObject.SetActive(false);
+            Receive.gameObject.SetActive(false);
+            Receive1.gameObject.SetActive(false);
+            Receive2.gameObject.SetActive(false);
+            Receive3.gameObject.SetActive(false);
+            Receive4.gameObject.SetActive(false);
+            Receive5.gameObject.SetActive(false);
+            Receive6.gameObject.SetActive(false);
+            Receive7.gameObject.SetActive(false);
             I = Convert.ToInt32(score.text);
         }
 
@@ -36,42 +36,42 @@ namespace Assets.Function1._03.Scripts.Controller
             rankScore.text = I.ToString();
             if (I >= 4200)
             {
-                receive.gameObject.SetActive(true);
+                Receive.gameObject.SetActive(true);
             }
 
             if (I >= 4400)
             {
-                receive1.gameObject.SetActive(true);
+                Receive1.gameObject.SetActive(true);
             }
 
             if (I >= 4600)
             {
-                receive2.gameObject.SetActive(true);
+                Receive2.gameObject.SetActive(true);
             }
 
             if (I >= 4800)
             {
-                receive3.gameObject.SetActive(true);
+                Receive3.gameObject.SetActive(true);
             }
 
             if (I >= 5200)
             {
-                receive4.gameObject.SetActive(true);
+                Receive4.gameObject.SetActive(true);
             }
 
             if (I >= 5400)
             {
-                receive5.gameObject.SetActive(true);
+                Receive5.gameObject.SetActive(true);
             }
 
             if (I >= 5600)
             {
-                receive6.gameObject.SetActive(true);
+                Receive6.gameObject.SetActive(true);
             }
 
             if (I >= 5800)
             {
-                receive7.gameObject.SetActive(true);
+                Receive7.gameObject.SetActive(true);
             }
 
             if (I <= 4000)
@@ -93,9 +93,9 @@ namespace Assets.Function1._03.Scripts.Controller
         }
 
         //更新奖励领取次数
-        public void Receive()
+        public void LingQu()
         {
-            if (receive0.gameObject.activeSelf == false)
+            if (Receive0.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
@@ -103,49 +103,49 @@ namespace Assets.Function1._03.Scripts.Controller
                 return;
             }
 
-            if (receive11.gameObject.activeSelf == false)
+            if (Receive11.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive22.gameObject.activeSelf == false)
+            if (Receive22.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive33.gameObject.activeSelf == false)
+            if (Receive33.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive44.gameObject.activeSelf == false)
+            if (Receive44.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive55.gameObject.activeSelf == false)
+            if (Receive55.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive66.gameObject.activeSelf == false)
+            if (Receive66.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive77.gameObject.activeSelf == false)
+            if (Receive77.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
@@ -157,22 +157,22 @@ namespace Assets.Function1._03.Scripts.Controller
         public void Reset()
         {
             //重置奖励领取状态
-            receive00.gameObject.SetActive(false);
-            receive111.gameObject.SetActive(false);
-            receive222.gameObject.SetActive(false);
-            receive333.gameObject.SetActive(false);
-            receive444.gameObject.SetActive(false);
-            receive555.gameObject.SetActive(false);
-            receive666.gameObject.SetActive(false);
-            receive777.gameObject.SetActive(false);
-            receive0.gameObject.SetActive(true);
-            receive11.gameObject.SetActive(true);
-            receive22.gameObject.SetActive(true);
-            receive33.gameObject.SetActive(true);
-            receive44.gameObject.SetActive(true);
-            receive55.gameObject.SetActive(true);
-            receive66.gameObject.SetActive(true);
-            receive77.gameObject.SetActive(true);
+            Receive00.gameObject.SetActive(false);
+            Receive111.gameObject.SetActive(false);
+            Receive222.gameObject.SetActive(false);
+            Receive333.gameObject.SetActive(false);
+            Receive444.gameObject.SetActive(false);
+            Receive555.gameObject.SetActive(false);
+            Receive666.gameObject.SetActive(false);
+            Receive777.gameObject.SetActive(false);
+            Receive0.gameObject.SetActive(true);
+            Receive11.gameObject.SetActive(true);
+            Receive22.gameObject.SetActive(true);
+            Receive33.gameObject.SetActive(true);
+            Receive44.gameObject.SetActive(true);
+            Receive55.gameObject.SetActive(true);
+            Receive66.gameObject.SetActive(true);
+            Receive77.gameObject.SetActive(true);
 
             J = Convert.ToInt32(saiJi.text);
             J++;
@@ -186,42 +186,42 @@ namespace Assets.Function1._03.Scripts.Controller
 
             if (I < 4200)
             {
-                receive.gameObject.SetActive(false);
+                Receive.gameObject.SetActive(false);
             }
 
             if (I < 4400)
             {
-                receive1.gameObject.SetActive(false);
+                Receive1.gameObject.SetActive(false);
             }
 
             if (I < 4600)
             {
-                receive2.gameObject.SetActive(false);
+                Receive2.gameObject.SetActive(false);
             }
 
             if (I < 4800)
             {
-                receive3.gameObject.SetActive(false);
+                Receive3.gameObject.SetActive(false);
             }
 
             if (I < 5200)
             {
-                receive4.gameObject.SetActive(false);
+                Receive4.gameObject.SetActive(false);
             }
 
             if (I < 5400)
             {
-                receive5.gameObject.SetActive(false);
+                Receive5.gameObject.SetActive(false);
             }
 
             if (I < 5600)
             {
-                receive6.gameObject.SetActive(false);
+                Receive6.gameObject.SetActive(false);
             }
 
             if (I < 5800)
             {
-                receive7.gameObject.SetActive(false);
+                Receive7.gameObject.SetActive(false);
             }
 
             if (I <= 4000)
@@ -246,42 +246,42 @@ namespace Assets.Function1._03.Scripts.Controller
         {
             if (I == 4200)
             {
-                receive.gameObject.SetActive(true);
+                Receive.gameObject.SetActive(true);
             }
 
             if (I == 4400)
             {
-                receive1.gameObject.SetActive(true);
+                Receive1.gameObject.SetActive(true);
             }
 
             if (I == 4600)
             {
-                receive2.gameObject.SetActive(true);
+                Receive2.gameObject.SetActive(true);
             }
 
             if (I == 4800)
             {
-                receive3.gameObject.SetActive(true);
+                Receive3.gameObject.SetActive(true);
             }
 
             if (I == 5200)
             {
-                receive4.gameObject.SetActive(true);
+                Receive4.gameObject.SetActive(true);
             }
 
             if (I == 5400)
             {
-                receive5.gameObject.SetActive(true);
+                Receive5.gameObject.SetActive(true);
             }
 
             if (I == 5600)
             {
-                receive6.gameObject.SetActive(true);
+                Receive6.gameObject.SetActive(true);
             }
 
             if (I == 5800)
             {
-                receive7.gameObject.SetActive(true);
+                Receive7.gameObject.SetActive(true);
             }
 
             else
