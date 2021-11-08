@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Function1\03.Scripts\Controller\JiaFenController.cs" />
+     <Compile Include="Assets\Function1\03.Scripts\Read.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/yinpai/Desktop/未命名文件夹/奖杯之路/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
