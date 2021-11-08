@@ -22,6 +22,7 @@ namespace Assets.Function1._03.Scripts.Controller
             I = Convert.ToInt32(score.text);
         }
 
+        //加分方法
         public void Jia()
         {
             I += 100;
@@ -91,9 +92,10 @@ namespace Assets.Function1._03.Scripts.Controller
             }
         }
 
+        //更新奖励领取次数
         public void Receive()
         {
-            if (receive00.gameObject.activeSelf == false)
+            if (receive0.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
@@ -101,49 +103,49 @@ namespace Assets.Function1._03.Scripts.Controller
                 return;
             }
 
-            if (receive111.gameObject.activeSelf == false)
+            if (receive11.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive222.gameObject.activeSelf == false)
+            if (receive22.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive333.gameObject.activeSelf == false)
+            if (receive33.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive444.gameObject.activeSelf == false)
+            if (receive44.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive555.gameObject.activeSelf == false)
+            if (receive55.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive666.gameObject.activeSelf == false)
+            if (receive66.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
                 Sum.text = Z.ToString();
             }
 
-            if (receive777.gameObject.activeSelf == false)
+            if (receive77.gameObject.activeSelf == false)
             {
                 Z = Convert.ToInt32(Sum.text);
                 Z++;
@@ -151,25 +153,26 @@ namespace Assets.Function1._03.Scripts.Controller
             }
         }
 
+        //重置方法
         public void Reset()
         {
-            //重置领取状态
-            receive0.gameObject.SetActive(false);
-            receive11.gameObject.SetActive(false);
-            receive22.gameObject.SetActive(false);
-            receive33.gameObject.SetActive(false);
-            receive44.gameObject.SetActive(false);
-            receive55.gameObject.SetActive(false);
-            receive66.gameObject.SetActive(false);
-            receive77.gameObject.SetActive(false);
-            receive00.gameObject.SetActive(true);
-            receive111.gameObject.SetActive(true);
-            receive222.gameObject.SetActive(true);
-            receive333.gameObject.SetActive(true);
-            receive444.gameObject.SetActive(true);
-            receive555.gameObject.SetActive(true);
-            receive666.gameObject.SetActive(true);
-            receive777.gameObject.SetActive(true);
+            //重置奖励领取状态
+            receive00.gameObject.SetActive(false);
+            receive111.gameObject.SetActive(false);
+            receive222.gameObject.SetActive(false);
+            receive333.gameObject.SetActive(false);
+            receive444.gameObject.SetActive(false);
+            receive555.gameObject.SetActive(false);
+            receive666.gameObject.SetActive(false);
+            receive777.gameObject.SetActive(false);
+            receive0.gameObject.SetActive(true);
+            receive11.gameObject.SetActive(true);
+            receive22.gameObject.SetActive(true);
+            receive33.gameObject.SetActive(true);
+            receive44.gameObject.SetActive(true);
+            receive55.gameObject.SetActive(true);
+            receive66.gameObject.SetActive(true);
+            receive77.gameObject.SetActive(true);
 
             J = Convert.ToInt32(saiJi.text);
             J++;
