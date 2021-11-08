@@ -1,4 +1,5 @@
 ﻿using System;
+using Assets.Function1._03.Scripts.Model;
 using UnityEngine;
 
 namespace Assets.Function1._03.Scripts.Controller
