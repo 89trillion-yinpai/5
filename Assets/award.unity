@@ -357,7 +357,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1968276214}
-        m_MethodName: Receive
+        m_MethodName: LingQu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1499,7 +1499,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1968276214}
-        m_MethodName: Receive
+        m_MethodName: LingQu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2044,7 +2044,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1968276214}
-        m_MethodName: Receive
+        m_MethodName: LingQu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2651,7 +2651,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1968276214}
-        m_MethodName: Receive
+        m_MethodName: LingQu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3116,7 +3116,7 @@ GameObject:
   - component: {fileID: 962945906}
   - component: {fileID: 962945905}
   m_Layer: 5
-  m_Name: imgRankScore
+  m_Name: txtRankScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4579,7 +4579,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1968276214}
-        m_MethodName: Receive
+        m_MethodName: LingQu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5208,7 +5208,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1968276214}
-        m_MethodName: Receive
+        m_MethodName: LingQu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5829,7 +5829,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1968276214}
-        m_MethodName: Receive
+        m_MethodName: LingQu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7042,7 +7042,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1968276214}
-        m_MethodName: Receive
+        m_MethodName: LingQu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7472,32 +7472,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e013e051787834534b0ca1e16a31fc44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  receive: {fileID: 701983874}
-  receive1: {fileID: 419238665}
-  receive2: {fileID: 275656211}
-  receive3: {fileID: 1497793690}
-  receive4: {fileID: 1359160622}
-  receive5: {fileID: 1659525911}
-  receive6: {fileID: 1953303166}
-  receive7: {fileID: 63297467}
-  receive0: {fileID: 1333947401}
-  receive11: {fileID: 1359123212}
-  receive22: {fileID: 1420201894}
-  receive33: {fileID: 81393650}
-  receive44: {fileID: 1382199626}
-  receive55: {fileID: 1109862197}
-  receive66: {fileID: 813205767}
-  receive77: {fileID: 1298900072}
-  receive00: {fileID: 1232599092}
-  receive111: {fileID: 1217930703}
-  receive222: {fileID: 1516653235}
-  receive333: {fileID: 358444261}
-  receive444: {fileID: 2081739866}
-  receive555: {fileID: 1860390968}
-  receive666: {fileID: 185539651}
-  receive777: {fileID: 1385938973}
+  Receive: {fileID: 701983874}
+  Receive1: {fileID: 419238665}
+  Receive2: {fileID: 275656211}
+  Receive3: {fileID: 1497793690}
+  Receive4: {fileID: 1359160622}
+  Receive5: {fileID: 1659525911}
+  Receive6: {fileID: 1953303166}
+  Receive7: {fileID: 63297467}
+  Receive0: {fileID: 1232599092}
+  Receive11: {fileID: 1217930703}
+  Receive22: {fileID: 1516653235}
+  Receive33: {fileID: 358444261}
+  Receive44: {fileID: 2081739866}
+  Receive55: {fileID: 1860390968}
+  Receive66: {fileID: 185539651}
+  Receive77: {fileID: 1385938973}
+  Receive00: {fileID: 1333947401}
+  Receive111: {fileID: 1359123212}
+  Receive222: {fileID: 1420201894}
+  Receive333: {fileID: 81393650}
+  Receive444: {fileID: 1382199626}
+  Receive555: {fileID: 1109862197}
+  Receive666: {fileID: 813205767}
+  Receive777: {fileID: 1298900072}
   Rank: {fileID: 218218106}
-  primary: {fileID: 21300000, guid: 565f6d748e11948fba2e44041ac4f2a1, type: 3}
+  primary: {fileID: 21300000, guid: b013c457260c6441bbcf92339570d7c9, type: 3}
   master: {fileID: 21300000, guid: bd519561f29314ae8baba847605e0e49, type: 3}
   King: {fileID: 21300000, guid: 1c8ec7c3f613e4730ae5557599cb7105, type: 3}
   score: {fileID: 1968276212}
